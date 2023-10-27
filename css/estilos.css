@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 768px) {
+    .header {
+        padding: 60px 0; /* Ajusta el espacio interno para pantallas más pequeñas */
+    }
+
+    .header h1 {
+        font-size: 24px; /* Reduce el tamaño del texto para pantallas más pequeñas */
+    }
+}
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+.header{
+        background-image: url('../assets/img/pexels-elina-volkova-18842628.jpg'); /* Ruta de tu imagen de fondo */
+        background-size: cover; /* La imagen se ajustará al tamaño del encabezado */
+        background-position: center; /* La imagen se centrará en el encabezado */
+        color: #fff; /* Color del texto en el encabezado */
+        text-align: center; /* Centra el texto horizontalmente */
+        padding: 100px 0; /* Espacio interno en el encabezado (arriba y abajo) */
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+    
+}
+    /* Estilos para el texto en el encabezado */
+    .header h1 {
+        font-size: 36px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra en el texto */
+ }
+ .titulosh{
+    padding: 15px;
+ }
+ .boton{
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un efecto moderno */
+    transition: background-color 0.3s, transform 0.2s;
+ }
+ .boton:hover {
+    background-color: #2980b9; /* Cambia el color de fondo al pasar el mouse */
+    transform: scale(1.05); /* Escala el botón al pasar el mouse para un efecto de crecimiento */
+}
+.h5{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: antiquewhite;
+}
+.iconos{
+    height: 67pt;
+    width: 67pt;
+}
+.dc{
+    color: rgb(10, 10, 10);
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.dc2{
+    color: rgb(10, 10, 10);
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.rg{
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+.cancionero{
+    padding: 50px;
+}
+.slider{
+    aspect-ratio: 10 / 16;
+    width: 300px;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+.slider img{
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+#cuenta{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+.simply-section{
+   
+    width: 180px;
+    height: 180px;
+    margin: 0 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(247, 206, 153);
+
+}
+
+.simply-amount{
+    display: block;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.simply-word{
+    font-weight: 300;
+    font-size: 30px;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.db{
+    color: black;
+}
