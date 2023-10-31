@@ -22,7 +22,7 @@
         background-image: url('../assets/img/gemes.jpeg'); /* Ruta de tu imagen de fondo */
         background-size: cover; /* La imagen se ajustará al tamaño del encabezado */
         background-position: center; /* La imagen se centrará en el encabezado */
-        color: #000000; /* Color del texto en el encabezado */
+        color: #ffffff; /* Color del texto en el encabezado */
         text-align: center; /* Centra el texto horizontalmente */
         padding: 100px 0; /* Espacio interno en el encabezado (arriba y abajo) */
         font-family: 'Dancing Script', cursive;
@@ -33,11 +33,11 @@
     /* Estilos para el texto en el encabezado */
     .header h1 {
         font-size: 36px;
-        text-shadow: 2px 2px 4px rgb(255, 255, 255); /* Sombra en el texto */
+        text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Sombra en el texto */
  }
  .titulosh{
     padding: 0px;
-    text-shadow: 0 0 10px #f8da53, 0 0 20px #f8da53, 0 0 30px #f8da53;
+    text-shadow: 0 0 10px #1f1f1f, 0 0 20px #000000, 0 0 30px #0a0a0a;
     animation: flicker 1.5s infinite;
  }
  .boton{
@@ -145,4 +145,16 @@
 }
 .db{
     color: black;
+}
+
+ 
+.iconos2{
+    height: 27pt;
+    width: 27pt;
+}
+.h52{
+    font-size: 40px;
+    color: black;
+    text-shadow: 0 0 10px #f8da53, 0 0 20px #f8da53, 0 0 30px #f8da53;
+    font-family: 'Dancing Script', cursive;
 }
