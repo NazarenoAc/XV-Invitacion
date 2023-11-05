@@ -12,17 +12,16 @@
 
 
 .body{
-    background-color: #ffffff;
+    background-color: #fdf0e9;
     color: #f7f6f5;
     font-family: Arial, sans-serif;
     text-align: center;
-    
 }
 .header{
-        background-image: url('../assets/img/gemes.jpeg'); /* Ruta de tu imagen de fondo */
+        background-image: url('../assets/img/geme 3.jpg'); /* Ruta de tu imagen de fondo */
         background-size: cover; /* La imagen se ajustará al tamaño del encabezado */
         background-position: center; /* La imagen se centrará en el encabezado */
-        color: #ffffff; /* Color del texto en el encabezado */
+        color: #ffefcc; /* Color del texto en el encabezado */
         text-align: center; /* Centra el texto horizontalmente */
         padding: 100px 0; /* Espacio interno en el encabezado (arriba y abajo) */
         font-family: 'Dancing Script', cursive;
@@ -33,16 +32,15 @@
     /* Estilos para el texto en el encabezado */
     .header h1 {
         font-size: 36px;
-        text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Sombra en el texto */
+       
  }
  .titulosh{
     padding: 0px;
-    text-shadow: 0 0 10px #1f1f1f, 0 0 20px #000000, 0 0 30px #0a0a0a;
     animation: flicker 1.5s infinite;
  }
  .boton{
-    background-color: #3498db;
-    color: #fff;
+    background-color: #be8e75;
+    color: #fffbfb;
     border: none;
     padding: 10px 20px;
     border-radius: 4px; /* Bordes redondeados */
@@ -52,25 +50,25 @@
     transition: background-color 0.3s, transform 0.2s;
  }
  .boton:hover {
-    background-color: #2980b9; /* Cambia el color de fondo al pasar el mouse */
+    background-color: #92512e; /* Cambia el color de fondo al pasar el mouse */
     transform: scale(1.05); /* Escala el botón al pasar el mouse para un efecto de crecimiento */
 }
 .h5{
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
-    color: antiquewhite;
+    color: #92512e;
 }
 .iconos{
     height: 67pt;
     width: 67pt;
 }
 .dc{
-    color: rgb(10, 10, 10);
+    color: #be8e75;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
 }
 .dc2{
-    color: rgb(10, 10, 10);
+    color: #8f6651;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
 }
@@ -99,8 +97,8 @@
     scroll-snap-align: center;
 }
 .footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffffab;
+    color: #92512e;
     text-align: center;
     padding: 10px;
 }
@@ -121,8 +119,7 @@
     font-size: 40px;
     font-family: 'Dancing Script', cursive;
     font-weight: 600;
-    color: #e7c964;
-    text-shadow: 0 0 10px #f8da53, 0 0 20px #f8da53, 0 0 30px #f8da53;
+    color: #92512e;
 }
 .simply-section{
     width: 80px;
@@ -153,8 +150,29 @@
     width: 27pt;
 }
 .h52{
-    font-size: 40px;
-    color: black;
-    text-shadow: 0 0 10px #f8da53, 0 0 20px #f8da53, 0 0 30px #f8da53;
     font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: #92512e;
 }
+audio {
+    display: none; /* Oculta los controles de audio */
+  }
+  .fontTarjeta{
+    font-family: 'Handlee', cursive;
+    color: #be8e75;
+  }
+  .colorMarron{
+    color: #92512e;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+  }
+  .background{
+    background-color: #be8e75;
+  }
+
+  .fondoPag{
+    background-color: #fdf0e9;
+  }
+  .background2{
+    background-color: #b18a76;
+  }
