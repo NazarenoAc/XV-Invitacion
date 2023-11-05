@@ -176,3 +176,8 @@ audio {
   .background2{
     background-color: #b18a76;
   }
+
+  .tituloCuentaRegresiva{
+    font-family: 'Edu TAS Beginner', cursive;
+    color: #8f6651;
+  }
