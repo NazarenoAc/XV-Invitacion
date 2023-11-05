@@ -178,6 +178,11 @@ audio {
   }
 
   .tituloCuentaRegresiva{
-    font-family: 'Edu TAS Beginner', cursive;
-    color: #8f6651;
+    font-family: 'Tangerine', cursive;
+    color: #5e2b11;
+  }
+  .tEsperamos{
+    font-family: 'Tangerine', cursive;
+    color: rgb(77, 54, 18);
+    font-size: 50px;
   }
